@@ -1,6 +1,8 @@
 About ruamel_yaml
 =================
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://bitbucket.org/ruamel/yaml
 
 Package license: MIT
@@ -16,7 +18,8 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/ruamel_yaml-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/ruamel_yaml-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/ruamel_yaml-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/ruamel_yaml-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/ruamel_yaml-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/ruamel-yaml-feedstock/branch/master)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/ruamel-yaml-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/ruamel-yaml-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c32cadf302eb707003c078b/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/ruamel_yaml-feedstock)
 
 Current release info
 ====================
@@ -104,3 +107,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+* [@mbargull](https://github.com/mbargull/)
+
